@@ -1,0 +1,52 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Dogs",
+  headLine: "Get all types of exclusive dogs here.",
+  description: "Get Access to our exclusive app that allows you to see Dogs.",
+  buttonLabel: "Buy Now",
+  imgStart: false,
+  img: require("../../Images/Dog.png").default,
+  alt: "dog",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Unlimited Access",
+  headLine: "Login to your account at any time.",
+  description:
+    "We have you covered no matter where you are located. All you need is an internet Connection and a phone.",
+  buttonLabel: "Learn More",
+  color: false,
+  imgStart: true,
+  img: require("../../Images/Dog-4.svg").default,
+  alt: "dog",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: "signup",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: true,
+  topLine: "Join Our Team",
+  headLine: "Creating an account is extremely easy.",
+  description: "Get everything set up and ready in under 10 minutes.",
+  buttonLabel: "Start Now",
+  imgStart: true,
+  img: require("../../Images/Dog-5.svg").default,
+  alt: "dog",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
